@@ -19,8 +19,9 @@ h1{
 
 section{
     background-color: white;
-    height: 80vh;
-    max-width: 90vw;
+    min-height: 500px;
+    max-height: 250px;
+    max-width: 750px;
     margin: auto;
     border-radius: 5px;
     padding: 10px;
@@ -36,28 +37,28 @@ div.horario{
 }
 
 img{
-    width: 550px;
-    height: 500px;
+    width: 350px;
+    
+    height: 350px;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 footer{
     padding: 25px;
     text-align: center;
     color: white;
-    font-size: 1.2em;
 }
 
 footer > p > a{
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    font-size: 1.3em;
+    
 }
 
 footer > p > a:hover{
